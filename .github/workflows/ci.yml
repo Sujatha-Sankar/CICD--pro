@@ -25,4 +25,4 @@ jobs:
       env:
         PYTHONPATH: ${{ github.workspace }}
       run: |
-        pytest -m pytest tests
+        python -m pytest tests
